@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="../../../index.html">Home</a>
+    <h1>
+        <a href="https://www.freecodecamp.org/news/javascript-design-patterns-explained/#abstract-factory-pattern"
+            target="_blank" rel="noopener noreferrer">
+            Factory Method Pattern
+        </a>
+    </h1>
+    <p>
+        The Abstract Factory pattern allows us to produce families of related objects without specifying concrete
+        classes. It's useful in situations where we need to create objects that share only some properties and methods.
+
+        The way it works is by presenting an abstract factory the client interacts with. That abstract factory calls the
+        corresponding concrete factory given the corresponding logic. And that concrete factory is the one that returns
+        the end object.
+
+        Basically it just adds an abstraction layer over the factory method pattern, so that we can create many
+        different types of objects, but still interact with a single factory function or class.
+
+        So let's see this with an example. Let's say we're modeling a system for a car company, which builds cars of
+        course, but also motorcycles and trucks.
+    </p>
+
+    <p>
+        Mẫu Abstract Factory cho phép chúng ta tạo ra các họ đối tượng liên quan mà không cần chỉ định các lớp cụ thể.
+        Nó rất hữu ích trong trường hợp chúng ta cần tạo các đối tượng chỉ chia sẻ một số thuộc tính và phương thức.
+    </br>
+        Cách nó hoạt động là trình bày một nhà máy trừu tượng mà khách hàng tương tác. Nhà máy trừu tượng đó gọi nhà máy
+        cụ thể tương ứng với logic tương ứng. Và nhà máy cụ thể đó là nhà máy trả về đối tượng cuối cùng.
+    </br>
+        Về cơ bản, nó chỉ thêm một lớp trừu tượng trên mẫu phương thức xuất xưởng, để chúng ta có thể tạo nhiều loại đối
+        tượng khác nhau, nhưng vẫn tương tác với một chức năng hoặc lớp xuất xưởng duy nhất.
+    </br>
+        Vì vậy, hãy xem điều này với một ví dụ. Giả sử chúng ta đang lập mô hình hệ thống cho một công ty ô tô, tất
+        nhiên là công ty này chế tạo ô tô, ngoài ra còn có xe máy và xe tải.
+    </p>
+</body>
+<script src="./index.js"></script>
+
+</html>
